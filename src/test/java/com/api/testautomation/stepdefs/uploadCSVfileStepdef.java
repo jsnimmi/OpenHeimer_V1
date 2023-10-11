@@ -56,6 +56,7 @@ public class uploadCSVfileStepdef {
         Thread.sleep(3000);
         //loginPagePageObjects.SelectFileFromWindows(strArg1);// need to check again
         Thread.sleep(3000);
+        //C:\\Users\\jsnim\\IdeaProjects\\OpenHeimerProjectNir\\TestData\\data1.csv
         uploadCSVfilePageObjects.setFileDragAndDrop("C:\\Test\\data1.csv");
         Thread.sleep(3000);
         System.out.println("File uploaded successfully");
